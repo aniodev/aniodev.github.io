@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>Aniodev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <meta name="author" content="Chauhan Pruthviraj">
+    <meta name="owner" contnet="Chauhan Pruthviraj">
+    <meta name="designer" content="Chauhan Pruthviraj">
+    <meta name="web-app-capable" content="yes">
+    <meta name="theme-color" content="black">
+    <meta name="url" content="https://aniodev.github.io">
+    <meta name="keywords" content="aniodev, official website aniodev, aniodev homepage, pruthviraj">
+    <meta name="robots" content="index/follow">
 
-<title>ANIODEV</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-
-<meta name="author" content="Chauhan Pruthviraj">
-
-<meta name="owner" contnet="Chauhan Pruthviraj">
-
-<meta name="designer" content="Chauhan Pruthviraj">
-
-<meta name="web-app-capable" content="yes">
-
-<meta name="theme-color" content="black">
-
-<meta name="url" content="https://aniodev.github.io">
-
-<meta name="keywords" content="aniodev, official website aniodev, aniodev homepage, pruthviraj">
-
-<meta name="robots" content="index/follow">
-
+    <link rel="stylesheet" type="text/css" href="media/css/desktop.css" />
 </head>
 
-<body class="aniodev_body">
-
-<header class="aniodev_body">
-
-<h1 title="Android IOS Developer">ANIODEV</h1>
-
-<div class="aniodev_menu">
-
-<hr />
-<hr />
-<hr />
-
-</div>
-
-</header>
-
-<main class="aniodev_main">
-
-<article class="aniodev_article">
-
-
-</article>
-
-
-</main>
-
-<footer class="aniodev_footer">
-
-
-</footer>
-
-
+<body class="aniodev_body" onload="apicall('home.html')">
+    <header class="aniodev_header">
+        <h1 title="Android IOS Developer">Aniodev</h1>
+        <div class="aniodev_menu" ontouch="openNav()" onclick="openNav()">
+            <hr class="hr1" />
+            <hr class="hr2" />
+            <hr class="hr3" />
+        </div>
+    </header>
+    <nav class="aniodev_nav nav">
+        <button class="nav_button about_button b1 " onclick="apicall('home/about/about.html')">About</button>
+        <button class="nav_button blog_button  b1" onclick="apicall('home/blog/blog.html')">Blog</button>
+        <button class="nav_button computer_button b1" onclick="apicall('home/computer/computer.html')">Computer</button>
+        <button class="nav_button docs_button b1" onclick="apicall('home/docs/docs.html')">Docs</button>
+        <button class="nav_button ui b1" onclick="apicall('home/more/more.html')">More</button>
+        <details>
+            <summary>Social Media</summary>
+            <button onclick="go('kooapp.com/profile/aniodev')" class="nav_button kooapp">Koo</button>
+            <button onclick="go('facebook.com/aniodev')" class="nav_button facebook">Facebook</button>
+            <button onclick="go('instagram.com/aniodevs')" class="nav_button instagram">Instagram</button>
+            <button onclick="go('twitter.com/aniodev')" class="nav_button twitter">Twitter</button>
+        </details>
+        <button class="nav_button close_button" onclick="closeNav()" ontouch="closeNav()">Close</button>
+    </nav>
+    <main class="aniodev_main">
+        <article class="aniodev_article">
+        </article>
+        <aside class="aniodev_aside">
+        </aside>
+    </main>
+    <footer class="aniodev_footer"></footer>
 </body>
+<script src="media/js/config.js"></script>
 
 </html>
-

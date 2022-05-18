@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.aniodev_body {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-family: "SANS", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif, verdana;
+    line-height: 45px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.aniodev_header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aniodev_header>h1 {
+    margin-left: 15px;
+    background-color: hsl(222, 100%, 50%);
+    padding: 10px;
+}
+
+.aniodev_menu {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.aniodev_menu>hr {
+    height: 5px;
+    width: 40px;
+    margin: 4px;
+    border: none;
+    background-color: white;
+}
+
+.aniodev_nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 0%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    z-index: 100;
+    transition-duration: 0.3s;
+}
+
+/* Buttons */
+
+.nav_button {
+    height: 50px;
+    width: 200px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+}
+
+.nav_button:hover,
+.nav_button:focus {
+    transform: scale(1.1, 1.1);
+}
+
+.nav_button:active {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    transform: scale(0.9, 0.9);
+}
+
+.kooapp {
+    background-color: yellow;
+    color: black
+}
+
+.facebook {
+    background-color: rgb(66, 103, 178);
+    color: white;
+}
+
+.instagram {
+    background-color: rgb(225, 48, 108);
+    color: white;
+}
+
+.twitter {
+    background-color: rgb(29, 161, 242);
+    color: white;
+}
+
+.close_button {
+    background-color: crimson;
+    color: black;
+}
+
+.aniodev_main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.aniodev_footer {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+}
